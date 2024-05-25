@@ -1,0 +1,29 @@
+{
+  "name": "pavlusha/traefik-php-sdk",
+  "version": "0.1.0",
+  "type": "sdk",
+  "description": "Traefik PHP SDK",
+  "license": "Apache-2.0",
+  "keywords": [
+    "traefik",
+    "sdk"
+  ],
+  "authors": [
+    {
+      "name": "Pavel Zavadski",
+      "email": "pavel.zavadski@pavlusha.me",
+      "homepage": "https://pavlusha.me/"
+    }
+  ],
+  "require": {
+    "php": "^8.3",
+    "ext-yaml": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "TraefikPhpSdk\\": "src/"
+    }
+  },
+  "minimum-stability": "beta",
+  "prefer-stable": true
+}
